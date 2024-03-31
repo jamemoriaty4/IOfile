@@ -61,7 +61,7 @@ public class Catagory implements Serializable {
         int idMax=0;
         for (Catagory e: catagories){
             if(e.getId()>idMax){
-                idMax= getId();
+                idMax= e.getId();
             }
         }
         return idMax+1;

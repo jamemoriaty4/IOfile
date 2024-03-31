@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91d0248b-ea17-43c4-9895-750c54d3caef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ss10Pracitce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/Design/IDesignCatagory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/Imple/CatagoryImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/entity/Catagory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/catagory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/CatagoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/IOFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/InputMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/AppendingObjectOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/entity/Catagory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/entity/Catagory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/catagory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/catagory.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CatagoryManagement.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java/Ss10Pracitce/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CatagoryManagement.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Java/Ss10Pracitce/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CatagoryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="presentation.CatagoryManagement" />
@@ -99,6 +90,7 @@
       <updated>1711720112542</updated>
       <workItem from="1711720113651" duration="4916000" />
       <workItem from="1711769798863" duration="3158000" />
+      <workItem from="1711798716177" duration="5259000" />
     </task>
     <servers />
   </component>
@@ -112,6 +104,16 @@
           <properties class="java.lang.RuntimeException" package="java.lang" />
           <option name="timeStamp" value="9" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/business/Imple/CatagoryImplement.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/business/entity/Catagory.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
